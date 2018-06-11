@@ -1,7 +1,12 @@
 % solver.pl
 %
 % author: Przemyslaw Kobylanski <przemko@mac.com>
-
+%
+% Pomysl na reprezentacje oparta na podziale kwadratow na czery
+% prostokatne trojkaty zaczerpnieto z A. Dovier, A. Formisano. E.
+% Pontelli. "Perspectives on Logic-based Approach for Reasoning About
+% Actions and Change".
+%
 :- module(solver, [solve/1]).
 
 
