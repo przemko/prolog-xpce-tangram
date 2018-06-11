@@ -28,6 +28,7 @@ draw_cell([North, East, South, West], Window, Y, X) :-
     draw_triangle(South, Window, X+20,Y+20, X+40,Y+40, X,Y+40),
     draw_triangle(West,  Window, X,Y, X+20,Y+20, X,Y+40).
 
+draw_triangle(+, _, _,_, _,_, _,_) :- !.
 draw_triangle(Pc, Window, X1,Y1, X2,Y2, X3,Y3) :-
     color(Pc, Color),
     new(Path, path(poly)),
