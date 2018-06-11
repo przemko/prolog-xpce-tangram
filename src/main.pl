@@ -7,7 +7,7 @@ run(Page, Num) :-
     atomic_list_concat(['Fig. ', Page, '.', Num], Title),
     new(Window, window(Title, size(40*Width, 40*Height))),
     send(Window, open),
-    (   solve(Box),
+    (   time(solve(Box)),
         draw(Window, Box)
     ;   send(Window, destroy),
         fail).

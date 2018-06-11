@@ -2,17 +2,8 @@
 %
 % author: Przemyslaw Kobylanski <przemko@mac.com>
 
-:- module(solver, [count/2, solve/1]).
+:- module(solver, [solve/1]).
 
-count(Box, _) :-
-	nb_setval(counter, 0),
-	solve(Box),
-	nb_getval(counter, C),
-	C1 is C + 1,
-	nb_setval(counter, C1),
-	fail.
-count(_, Counter) :-
-	nb_getval(counter, Counter).
 
 solve(Box) :-
     piece(3, P3), insert(P3, Box),
