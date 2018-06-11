@@ -34,4 +34,12 @@ Czasy znalezienia pierwszego oraz wszystkich rozwiązań (w sekundach):
 
 |Fig   |Pierwsze |Wszystkie|
 |:----:|--------:|--------:|
-|1/1   | |0.096|
+|1/1|0.056|0.096|
+|1/2|0.006|0.098|
+|1/3|0.001|0.712|
+|1/4|0.013|0.155|
+|2/1|0.007|0.430|
+|2/2|0.020|0.178|
+
+
+
