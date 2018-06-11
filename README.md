@@ -30,3 +30,8 @@ false.
 
 ```
 
+Czasy znalezienia pierwszego oraz wszystkich rozwiązań (w sekundach):
+
+|Fig   |Pierwsze |Wszystkie|
+|:----:|--------:|--------:|
+|1/1   | |0.096|
