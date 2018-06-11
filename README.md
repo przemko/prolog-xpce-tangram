@@ -30,7 +30,7 @@ false.
 
 ```
 
-Czasy znalezienia pierwszego oraz wszystkich rozwiązań (w sekundach):
+Czasy w sekundach znalezienia pierwszego oraz wszystkich rozwiązań (SWI-Prolog 7.2.3, Intel Core i-7 3.4 GHz):
 
 |Fig   |Pierwsze |Wszystkie|
 |:----:|--------:|--------:|
@@ -40,6 +40,3 @@ Czasy znalezienia pierwszego oraz wszystkich rozwiązań (w sekundach):
 |1/4|0.013|0.155|
 |2/1|0.007|0.430|
 |2/2|0.020|0.178|
-
-
-
