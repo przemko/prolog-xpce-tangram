@@ -5,27 +5,34 @@ Program w Prologu rozwiązujący łamigłówkę Tangram.
 ```bash
 $ cd src
 $ swipl
+Welcome to SWI-Prolog (threaded, 64 bits, version 7.6.4)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
 ?- [main].
 true.
 
 ?- run(1, 1).
-% 745,253 inferences, 0.058 CPU in 0.058 seconds (100% CPU, 12857240 Lips)
+% 715,642 inferences, 0.054 CPU in 0.054 seconds (100% CPU, 13209350 Lips)
 true ;
-% 1,044 inferences, 0.000 CPU in 0.000 seconds (99% CPU, 3406655 Lips)
+% 1,014 inferences, 0.000 CPU in 0.000 seconds (100% CPU, 5001356 Lips)
 true ;
-% 2,540 inferences, 0.001 CPU in 0.001 seconds (100% CPU, 2377941 Lips)
+% 2,486 inferences, 0.000 CPU in 0.000 seconds (99% CPU, 5340884 Lips)
 true ;
-% 1,042 inferences, 0.001 CPU in 0.001 seconds (100% CPU, 2002233 Lips)
+% 1,012 inferences, 0.000 CPU in 0.000 seconds (99% CPU, 3742437 Lips)
 true ;
-% 13,663 inferences, 0.005 CPU in 0.005 seconds (100% CPU, 2756671 Lips)
+% 12,859 inferences, 0.004 CPU in 0.004 seconds (100% CPU, 3338082 Lips)
 true ;
-% 1,042 inferences, 0.000 CPU in 0.000 seconds (99% CPU, 2499610 Lips)
+% 1,012 inferences, 0.000 CPU in 0.000 seconds (99% CPU, 4358162 Lips)
 true ;
-% 2,540 inferences, 0.001 CPU in 0.001 seconds (100% CPU, 2563670 Lips)
+% 2,486 inferences, 0.000 CPU in 0.000 seconds (99% CPU, 5043087 Lips)
 true ;
-% 1,042 inferences, 0.000 CPU in 0.000 seconds (99% CPU, 2800307 Lips)
+% 1,012 inferences, 0.000 CPU in 0.000 seconds (99% CPU, 3776260 Lips)
 true ;
-% 512,023 inferences, 0.110 CPU in 0.110 seconds (100% CPU, 4660614 Lips)
+% 494,387 inferences, 0.042 CPU in 0.042 seconds (100% CPU, 11796315 Lips)
 false.
 
 ```
