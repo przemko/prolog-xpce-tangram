@@ -30,13 +30,15 @@ false.
 
 ```
 
-Czasy w sekundach znalezienia pierwszego oraz wszystkich rozwiązań (SWI-Prolog 7.2.3, Intel Core i-7 3.4 GHz):
+Średni czas w sekundach znalezienia pierwszego oraz wszystkich rozwiązań (SWI-Prolog 7.6.4, Ubuntu 18.04, Intel Core i7 3.6 GHz):
 
-|Fig   |Pierwsze |Wszystkie|
+|Obrazek|Pierwsze|Wszystkie|
 |:----:|--------:|--------:|
-|1/1|0.056|0.096|
-|1/2|0.006|0.098|
-|1/3|0.001|0.712|
-|1/4|0.013|0.155|
-|2/1|0.007|0.430|
-|2/2|0.020|0.178|
+|1/1|0.052|0.091|
+|1/2|0.003|0.096|
+|1/3|0.000|0.666|
+|1/4|0.007|0.144|
+|2/1|0.036|0.280|
+|2/2|0.017|0.160|
+|2/3|0.023|0.184|
+
